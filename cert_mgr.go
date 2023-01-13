@@ -21,6 +21,4 @@ type SystemTrustCertMgr interface {
 	// Uninstall remove certificate from system trust list
 	// not found return nil
 	Uninstall(cert *x509.Certificate) error
-
-	Check(cert *x509.Certificate) error
 }
