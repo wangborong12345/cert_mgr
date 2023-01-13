@@ -1,4 +1,4 @@
-module cert_mgr
+module github.com/wangborong12345/cert_mgr
 
 go 1.19
 
